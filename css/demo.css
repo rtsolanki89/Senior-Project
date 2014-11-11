@@ -1,0 +1,56 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	background-attachment: fixed;
+	background-position: 80% 80%;
+	background-size: cover;
+}
+h2{
+    border-bottom: 1px solid black
+}
+a {
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+.bg-red {
+	background-image: url(bg-red.jpg);
+}
+.bg-orange {
+	background-image: url(bg-orange.jpg);
+}
+.bg-yellow {
+	background-image: url(bg-yellow.jpg);
+}
+.bg-green {
+	background-image: url(bg-green.jpg);
+}
+.bg-cyan {
+	background-image: url(bg-cyan.jpg);
+}
+.bg-blue {
+	background-image: url(bg-blue.jpg);
+}
+.bg-purple {
+	background-image: url(bg-purple.jpg);
+}
+.bg-pink {
+	background-image: url(bg-pink.jpg);
+}
+.bg-black {
+	background-image: url(bg-black.jpg);
+}
+.body {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 10px;
+}
+.body-s {
+	max-width: 400px;
+}
+@media screen and (max-width: 600px) {
+	.body {
+		padding: 0px;
+	}
+}
